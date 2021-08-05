@@ -1,0 +1,154 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+button {
+    background-color: #D13939;
+
+}
+
+.btn-outline-success {
+    color: #F2A267;
+    border-color: #F2A267;  
+}
+
+.btn-outline-success:hover {
+    background-color: #97AD77;
+    border-color: #97AD77;
+}
+
+.bg-dark {
+    background: #262F39!important;
+}
+
+.carousel {
+    margin-bottom: 6rem;
+}
+/*
+.carousel-caption {
+    margin-bottom: 3rem;
+    z-index: 10;
+}
+*/
+.carousel-indicators li{
+    background-color: #F2A267;
+    margin: 5px;
+}
+
+.carousel-indicators li.active {
+    background-color: #D13939;
+    border-color: #D13939; 
+}
+
+.carouselHeaders1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+.carouselHeaders1, .slideOnePara{
+    color: white;
+}
+.carouselHeaders {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+.carousel_background_header1 {
+    background-color: rgba(87, 86, 86, 0.24);
+    padding: 15px;
+
+}
+
+.carousel_background_header2 {
+    background-color: rgba(208, 209, 206, 0.24);
+    padding: 15px;
+}
+a {
+    color: #D13939;
+}
+
+/*
+a.nav-link {
+    color: red;
+}
+*/
+
+/*
+li a .nav-link {
+    color: #D13939;
+}
+*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #D13939;
+    border-color: #D13939;
+}
+.btn-primary:hover {
+    background-color: #262F39;
+    border-color: #262F39;
+}
+
+.btn-secondary {
+    background-color: #97AD77;
+    border-color: #97AD77;
+}
+
+.btn-secondary:hover {
+    border-color: #F2A267;
+    background-color: #F2A267;
+}
+.btn-sm  {
+    border-radius: .4rem;
+}
+
+.btn-outline-secondary {
+    color: #fff;
+    background-color: #97AD77;
+    border-color: #97AD77;
+    border-radius: .4rem; 
+}
+
+.btn-outline-secondary:hover {
+    background-color: #F2A267;
+    border-color: #F2A267;
+}
+
+.jumbotron {
+    background-color: #EFF2F3;
+}
+
+.bg-light {
+    background-color: #EFF2F3!important;
+}
+
+
+h1, .slidesPara  {
+    color: #101010;
+}
+p1 {
+    color: #000000;
+}
+h5 {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+
+@media screen and (max-width: 576px) {
+/
+    
+    .carousel {
+        margin-bottom: 2rem;
+    }
+    .article2, .article5 {
+        display: none;
+    }
+    h2.featurette-heading {
+    text-align: center;
+    }
+/*
+    .rounded-circle {
+        float: right;
+    }
+*/
+}
